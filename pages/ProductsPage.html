@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="../css/Reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div id="headerdiv1">
+            <a href="#" id="menu" onclick="abrirMenu()"><img src="../images/Menu.png" alt="Menu" id="imgmenu"></a>
+            <a href="../index.html" id="logo"><img src="../images/Logo.png" alt="Logo da Empresa" id="imglogo"></a>
+        </div>
+        <div id="headerdiv2">
+            <input type="text" id="search" placeholder="Pesquisar">
+            <a href="#"><img src="../images/lupa.png" alt="Lupa" id="imglupa"></a>
+        </div>
+        <br>
+        <nav id="navmenu">
+            <a  href="#" onclick="fecharMenu()">&times; Fechar</a>
+            <a  href="#">Calças</a>
+            <a  href="#">Camisetas</a>
+            <a  href="#">Casacos</a>
+            <a  href="../pages/ProductsPage.html">Veja Tudo</a>
+        </nav> 
+    </header>
+    <main>
+        <a id="filtrar" href="">Filtrar</a>
+        <div id="filtro">
+            <p>Filtrar por Preço</p>
+            <a href="">de R$25,00 até R$49,99</a>
+            <a href="">de R$50,00 até R$79,99</a>
+            <a href="">de R$80,00 até R$99,99</a>
+            <a href="">de R$100,00 até R$199,99</a>
+        </div>
+        <div class="produtos">
+            <a href="../pages/ProductPage.html"><img src="../images/IMG_1154.JPG" alt="Camiseta Tommy Hilfiger"
+                    class="imgprod">
+                <p>Camiseta Tommy Hilfiger</p><br>
+                <p>R$30,00</p>
+            </a>
+        </div>
+        <div class="produtos">
+            <a href="../pages/ProductPage.html"><img src="../images/IMG_1157.JPG" alt="Camiseta Grizzly" class="imgprod">
+                <p>Camiseta Grizzly</p><br>
+                <p>R$40,00</p>
+            </a>
+        </div>
+        <div class="produtos">
+            <a href="../pages/ProductPage.html"><img src="../images/IMG_1222.JPG" alt="Calça Preta" class="imgprod">
+                <p>Calça Preta</p><br>
+                <p>R$30,00</p>
+            </a>
+        </div>
+    </main>
+    <footer>
+        <h1 id="contato">Contato</h1>
+        <a id="wpp" href="https://web.whatsapp.com/send?phone=5513996396895" target="_blank">Whatsapp: (13) 99639-6895
+        </a>
+        <a id="email" href="mailto:gabriel160505@gmail.com" target="_blank">Email: gabriel160505@gmail.com</a>
+        <h1 id="social">Social</h1>
+        <a href="https://www.instagram.com/brecho.4real/" id="instalink" target="_blank">Instagram: @brecho.4real</a>
+        <a href="../pages/AboutPage.html" id="sobre">Sobre</a>
+    </footer>
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="stylesheet" href="../css/Reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        main {
+            background-color: rgb(18, 0, 43);
+        }
+
+        main h1 {
+            padding-top: 3%;
+            padding-bottom: 2%;
+            display: flex;
+            justify-content: center;
+        }
+
+        h1,
+        h2 {
+            color: darkorchid;
+        }
+
+        main h1 {
+            font-size: 30px;
+        }
+
+        main h2 {
+            font-size: 20px;
+        }
+
+        p {
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+        main img {
+            width: 200px;
+        }
+
+        .img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 3%;
+            padding-bottom: 3%;
+        }
+
+        #instalink {
+            padding-bottom: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="header">
+        <div id="headerdiv1">
+            <a href="#" id="menu" onclick="abrirMenu()"><img src="../images/Menu.png" alt="Menu" id="imgmenu"></a>
+            <a href="../index.html" id="logo"><img src="../images/Logo.png" alt="Logo da Empresa" id="imglogo"></a>
+        </div>
+        <div id="headerdiv2">
+            <input type="text" id="search" placeholder="Pesquisar">
+            <a href="#"><img src="../images/lupa.png" alt="Lupa" id="imglupa"></a>
+        </div>
+        <br>
+        <nav id="navmenu">
+            <a href="#" onclick="fecharMenu()">&times; Fechar</a>
+            <a href="#">Calças</a>
+            <a href="#">Camisetas</a>
+            <a href="#">Casacos</a>
+            <a href="../pages/ProductsPage.html">Veja Tudo</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Sobre o Brechó 4Real</h1>
+
+        <p>
+            Fundada em 2022 buscando tornar roupas de diferentes marcas e estilos,
+            acessíveis a todos. Sempre em busca da moda sustentável e a revitalização
+            de peças.
+        </p>
+
+        <div class="img">
+            <img src="../images/CalcaCargoBranca.jpg" alt="Calça Cargo Branca">
+        </div>
+
+        <p>
+            Selecionamos e tratamos de cada peça cuidadosamente e com muita sutileza,
+                pois em meio a tantas roupas, algumas podem ter mais de 10 anos!
+        </p>
+        <div class="img">
+            <img src="../images/CasacoRalphLauren1.jpg" alt="Casaco Polo Ralph Lauren">
+        </div>
+        <p>
+            Apostem nos nossos produtos, apostem na moda sustentável!
+        </p>
+        <div class="img">
+            <img src="../images/JacoAdidas1.jpg" alt="Moletom Adidas Originals">
+        </div>
+        
+    </main>
+    <footer>
+        <h1 id="contato">Contato</h1>
+        <a id="wpp" href="https://web.whatsapp.com/send?phone=5513996396895" target="_blank">Whatsapp: (13) 99639-6895
+        </a>
+        <a id="email" href="mailto:gabriel160505@gmail.com" target="_blank">Email: gabriel160505@gmail.com</a>
+        <h1 id="social">Social</h1>
+        <a href="https://www.instagram.com/brecho.4real/" id="instalink" target="_blank">Instagram: @brecho.4real</a>
+    </footer>
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>

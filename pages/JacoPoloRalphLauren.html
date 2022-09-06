@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casaco Polo Ralph Lauren</title>
+    <link rel="stylesheet" href="../css/Reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/ProductPage.css">
+</head>
+
+<body>
+    <header id="header">
+        <div id="headerdiv1">
+            <a href="#" id="menu" onclick="abrirMenu()"><img src="../images/Menu.png" alt="Menu" id="imgmenu"></a>
+            <a href="../index.html" id="logo"><img src="../images/Logo.png" alt="Logo da Empresa" id="imglogo"></a>
+        </div>
+        <div id="headerdiv2">
+            <input type="text" id="search" placeholder="Pesquisar">
+            <a href="#"><img src="../images/lupa.png" alt="Lupa" id="imglupa"></a>
+        </div>
+        <br>
+        <nav id="navmenu">
+            <a  href="#" onclick="fecharMenu()">&times; Fechar</a>
+            <a  href="#">Calças</a>
+            <a  href="#">Camisetas</a>
+            <a  href="#">Casacos</a>
+            <a  href="../pages/ProductsPage.html">Veja Tudo</a>
+        </nav> 
+    </header>
+    <main>
+        <div id="main1">
+            <h1>Casaco Polo Ralph Lauren</h1>
+            <br>
+            <h2>Marca:</h2>
+            <p>Polo Ralph Lauren</p>
+        </div>
+        <div id="imgprin">
+        <img id="principal" src="../images/CasacoRalphLauren1.jpg" alt="Casaco Polo Ralph Lauren">
+    </div>
+
+        <div id="botoes">
+            <a href="javascript:void(0)" onclick="share()">Compartilhar</a>
+            <a href="https://api.whatsapp.com/send?text=http:http://127.0.0.1:5500/pages/cmstgrizzly.html">Whatsapp</a>
+        </div>
+        <hr>
+        <div id="preco">
+            <p>R$ 90,00</p>
+        </div>
+        <hr>
+        <div id="especificacoes">
+            <h2>Especificações</h2>
+            <p>Casaco Polo Ralph Lauren</p>
+            <p>TAM L</p>
+            <p>
+                Recomendamos que verifique as medidas antes de finalizar a compra do seu
+                pedido.</p>
+            <p>Condições: 9/10</p>
+            <p>Avarias: Gola levemente amarelada</p>
+            <p>Origem: Sri Lanka.</p>
+            <p>Observação: Peças usadas normalmente mostram alguns sinais de desgaste.
+                Todas as falhas significativas são fotografadas ou declaradas na descrição
+                do produto.</p>
+            </p>
+        </div>
+    </main>
+    <footer>
+        <h1 id="contato">Contato</h1>
+        <a id="wpp" href="https://web.whatsapp.com/send?phone=5513996396895" target="_blank">Whatsapp: (13) 99639-6895
+        </a>
+        <a id="email" href="mailto:gabriel160505@gmail.com" target="_blank">Email: gabriel160505@gmail.com</a>
+        <h1 id="social">Social</h1>
+        <a href="https://www.instagram.com/brecho.4real/" id="instalink" target="_blank">Instagram: @brecho.4real</a>
+        <a href="../pages/AboutPage.html" id="sobre">Sobre</a>
+    </footer>
+    <script src="../js/script.js"></script>
+
+    <script>
+        function share(){
+        if (navigator.share !== undefined) {
+            navigator.share({
+                title: 'Camiseta Grizzly',
+                text: 'Página sobre o produto: Camiseta Grizzly',
+                url: 'http://127.0.0.1:5500/pages/cmstgrizzly.html',
+            })
+            .then(() => console.log('Successful share'))
+            .catch((error) => console.log('Error sharing', error));
+        }
+    }
+    </script>
+</body>
+
+</html>

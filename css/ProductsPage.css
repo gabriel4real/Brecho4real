@@ -1,0 +1,81 @@
+body {
+    margin: auto;
+}
+header {
+    background-color: rgb(0, 0, 0);
+}
+footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+header nav .menu {
+    display: none;
+}
+footer div h2 {
+   font-size: 30px;
+   color: darkorchid;
+}
+footer a {
+
+   font-size: 15px;
+   color: darkorchid;
+}
+
+.imgprod {
+    width: 50%;
+}
+
+#imgmenu {
+    width: 100%;
+}
+#imglogo {
+    width: 35%;
+    justify-self: center;
+    align-self: center;
+}
+#search {
+    
+}
+#imglupa {
+    width: 5%;
+}
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#wpp {
+    margin-left: 10%;
+}
+#sobre{
+    display: flex;
+    align-self: center;
+    font-size: 25px;
+}
+#headerdiv1 {
+    display: flex;
+     justify-content:space-around;
+     align-items: center;
+}
+#headerdiv2 {
+     display: flex;
+     justify-content: center;
+}
+
+#contato h2 {
+    align-self: center;
+}
+#social h2 {
+    align-self: center;
+}
+#headerdiv1 a img {
+    width:50%;
+    display: block;
+}

@@ -1,0 +1,72 @@
+main {
+    background-color: rgb(18, 0, 43);
+}
+
+main h1 {
+    font-size: 30px;
+}
+
+main h2 {
+    font-size: 25px;
+}
+
+h1, h2 {
+    color: darkorchid;
+}
+
+#main1 {
+    padding-top: 2%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#botoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#preco {
+    margin-left: 3%;
+    font-size: 25px;
+}
+#especificacoes {
+    padding-bottom: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#imgprin {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#principal
+{
+    width: 50%;
+}
+#main1 p {
+    margin-top: 1%;
+}
+#especificacoes p {
+    padding-top: 2%;
+}
+#especificacoes h2 {
+    font-size: 25px;
+}
+main p, #especificacoes p {
+    color: white;
+    font-size: 22x;
+}
+
+@media screen and (min-width: 1400px) {
+    #principal{
+        width: 25%;
+    }
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brechó 4Real</title>
+    <link rel="stylesheet" href="css/Reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<style>
+    
+    .imgprod {
+        width: 50%;
+    }
+
+    main {
+        background-color: rgb(18, 0, 43);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .prod {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .produtos {
+        width: 50%;
+        border: 1px;
+        border-style: solid;
+        border-color: blueviolet;
+        margin: 1%;
+    }
+
+    #flexprodPC1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #flexprodMOB1 {
+        display: flex;
+    }
+
+    #flexprodMOB2 {
+        display: flex;
+    }
+
+    #flexprodPC2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #flexprodMOB3 {
+        display: flex;
+    }
+
+    #flexprodMOB4 {
+        display: flex;
+    }
+
+
+    @media screen and (min-width: 1400px) {
+        .imgprod {
+            width: 40%;
+        }
+
+        #flexprodPC1 {
+            flex-direction: row;
+        }
+
+        #flexprodPC2 {
+            flex-direction: row;
+        }
+
+        .produtos {
+            width: 100%;
+        }
+
+        main {
+            flex-wrap: nowrap;
+        }
+
+    }
+</style>
+
+<body>
+    <header id="header">
+        <div id="headerdiv1">
+            <a href="#" id="menu" onclick="abrirMenu()"><img src="images/Menu.png" alt="Menu" id="imgmenu"></a>
+            <a href="index.html" id="logo"><img src="images/Logo.png" alt="Logo da Empresa" id="imglogo"></a>
+        </div>
+        <div id="headerdiv2">
+            <input type="text" id="search" placeholder="Pesquisar">
+            <a href="#"><img src="images/lupa.png" alt="Lupa" id="imglupa"></a>
+        </div>
+        <br>
+        <nav id="navmenu">
+            <a href="#" onclick="fecharMenu()">&times; Fechar</a>
+            <a href="#">Calças</a>
+            <a href="#">Camisetas</a>
+            <a href="#">Casacos</a>
+            <a href="pages/ProductsPage.html">Veja Tudo</a>
+        </nav>
+    </header>
+    <main>
+
+        <div id="flexprodPC1">
+            <div id="flexprodMOB1">
+                <div class="produtos">
+                    <br>
+                    <a class="prod" href="pages/CamisetaTommy.html"><img src="images/CamisetaTommyHilfiger.jpg"
+                            alt="Camiseta Tommy Hilfiger" class="imgprod"> <br>
+                        <p class="nomeprod">Camiseta Tommy Hilfiger</p>
+                        <p>R$30,00</p> <br>
+                    </a>
+                </div>
+                <div class="produtos">
+                    <br>
+                    <a class="prod" href="pages/cmstgrizzly.html"><img src="images/CamisetaGrizzly.jpg"
+                            alt="Camiseta Grizzly" class="imgprod"> <br>
+                        <p>Camiseta Grizzly</p>
+                        <p>R$40,00</p> <br>
+                    </a>
+                </div>
+            </div>
+            <div id="flexprodMOB2">
+                <div class="produtos">
+                    <br>
+                    <a class="prod" href="pages/clcapreta.html"><img src="images/CalcaPreta.jpg" alt="Calça Preta"
+                            class="imgprod"> <br>
+                        <p>Calça Preta</p>
+                        <p>R$30,00</p>
+                        <br>
+                    </a>
+                </div>
+                <div class="produtos">
+                    <br>
+                    <a class="prod" href="pages/JacoPoloRalphLauren.html"><img src="images/CasacoRalphLauren1.jpg"
+                            alt="Casaco Polo Ralph Lauren" class="imgprod"> <br>
+                        <p>Casaco Polo Ralph Lauren</p>
+                        <p>R$90,00</p>
+                        <br>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="flexprodPC2">
+            <div id="flexprodMOB3">
+                <div class="produtos">
+                    <br>
+                    <a class="prod" href="pages/PoloRipCurl.html"><img src="images/Polo Rip Curl.jpg"
+                            alt="Polo Rip Curl" class="imgprod">
+                        <br>
+                        <p>Polo Rip Curl</p>
+                        <p>R$35,00</p>
+                        <br>
+                    </a>
+                </div>
+
+                <div class="produtos">
+                    <br>
+                    <a class="prod" href="pages/PoloAdidasAdizero.html"><img src="images/Polo Adidas Adizero.jpg"
+                            alt="Polo Adidas Adizero" class="imgprod">
+                        <br>
+                        <p>Polo Adidas Adizero</p>
+                        <p>R$50,00</p>
+                        <br>
+                    </a>
+                </div>
+            </div>
+            <div id="flexprodMOB4">
+                <div class="produtos">
+                    <br>
+                    <a class="prod" href="pages/JacoAdidasOriginals.html"><img src="images/JacoAdidas1.jpg"
+                            alt="Moletom Adidas Originals" class="imgprod">
+                        <br>
+                        <p>Moletom Adidas Originals</p>
+                        <p>R$50,00</p>
+                        <br>
+                    </a>
+                </div>
+                <div class="produtos">
+                    <br>
+                    <a class="prod" href="pages/CalcaCargoBranca.html"><img src="images/CalcaCargoBranca.jpg"
+                            alt="Calça Cargo Branca" class="imgprod">
+                        <br>
+                        <p>Calça Cargo Branca</p>
+                        <p>R$35,00</p>
+                        <br>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h1 id="contato">Contato</h1>
+        <a id="wpp" href="https://web.whatsapp.com/send?phone=5513996396895" target="_blank">Whatsapp: (13) 99639-6895
+        </a>
+        <a id="email" href="mailto:gabriel160505@gmail.com" target="_blank">Email: gabriel160505@gmail.com</a>
+        <h1 id="social">Social</h1>
+        <a href="https://www.instagram.com/brecho.4real/" id="instalink" target="_blank">Instagram: @brecho.4real</a>
+        <a href="pages/AboutPage.html" id="sobre">Sobre</a>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
